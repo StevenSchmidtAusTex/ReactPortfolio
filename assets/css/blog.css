@@ -1,0 +1,40 @@
+.responsive-image{
+	max-width: 400px;
+}
+all{
+	font-family: "Roboto" , serif;
+}
+
+article.post{
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	border-radius: 5px;
+	box-shadow: 4px 6px 5px #615353;
+	padding: 20px;
+}
+h2.post-title{
+	margin: 0px;	
+}
+
+.new-post-form{
+	border: 4px solid #eee;
+	padding: 10px;
+	background: #eec;
+	display: flex;
+	flex-direction: column;
+}
+.new-post-form label{
+	margin: 10px 0px;
+	display: flex;
+	flex-direction: column;
+}
+.new-post-form input,.new-post-form  textarea{
+	padding: 5px 10px;
+}
+.submit-button{
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
